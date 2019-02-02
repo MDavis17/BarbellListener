@@ -1,0 +1,862 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		423F76A222065CA2005066D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F76A122065CA2005066D5 /* AppDelegate.swift */; };
+		423F76A422065CA2005066D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F76A322065CA2005066D5 /* ViewController.swift */; };
+		423F76A722065CA2005066D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423F76A522065CA2005066D5 /* Main.storyboard */; };
+		423F76A922065CA2005066D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 423F76A822065CA2005066D5 /* Assets.xcassets */; };
+		423F76AC22065CA2005066D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423F76AA22065CA2005066D5 /* LaunchScreen.storyboard */; };
+		423F76B722065CA2005066D5 /* BarbellListenerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F76B622065CA2005066D5 /* BarbellListenerTests.swift */; };
+		423F76C222065CA3005066D5 /* BarbellListenerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F76C122065CA3005066D5 /* BarbellListenerUITests.swift */; };
+		423F76C722065CA3005066D5 /* BarbellListener WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 423F76C622065CA3005066D5 /* BarbellListener WatchKit App.app */; };
+		423F76CD22065CA3005066D5 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423F76CB22065CA3005066D5 /* Interface.storyboard */; };
+		423F76CF22065CA3005066D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 423F76CE22065CA3005066D5 /* Assets.xcassets */; };
+		423F76D622065CA3005066D5 /* BarbellListener WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 423F76D522065CA3005066D5 /* BarbellListener WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		423F76DB22065CA3005066D5 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F76DA22065CA3005066D5 /* InterfaceController.swift */; };
+		423F76DD22065CA3005066D5 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F76DC22065CA3005066D5 /* ExtensionDelegate.swift */; };
+		423F76DF22065CA3005066D5 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F76DE22065CA3005066D5 /* NotificationController.swift */; };
+		423F76E122065CA4005066D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 423F76E022065CA4005066D5 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		423F76B322065CA2005066D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 423F769622065CA2005066D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 423F769D22065CA2005066D5;
+			remoteInfo = BarbellListener;
+		};
+		423F76BE22065CA3005066D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 423F769622065CA2005066D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 423F769D22065CA2005066D5;
+			remoteInfo = BarbellListener;
+		};
+		423F76C822065CA3005066D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 423F769622065CA2005066D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 423F76C522065CA3005066D5;
+			remoteInfo = "BarbellListener WatchKit App";
+		};
+		423F76D722065CA3005066D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 423F769622065CA2005066D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 423F76D422065CA3005066D5;
+			remoteInfo = "BarbellListener WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		423F76E922065CA4005066D5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				423F76D622065CA3005066D5 /* BarbellListener WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423F76ED22065CA4005066D5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				423F76C722065CA3005066D5 /* BarbellListener WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		423F769E22065CA2005066D5 /* BarbellListener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarbellListener.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		423F76A122065CA2005066D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		423F76A322065CA2005066D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		423F76A622065CA2005066D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		423F76A822065CA2005066D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		423F76AB22065CA2005066D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		423F76AD22065CA2005066D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		423F76B222065CA2005066D5 /* BarbellListenerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarbellListenerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		423F76B622065CA2005066D5 /* BarbellListenerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarbellListenerTests.swift; sourceTree = "<group>"; };
+		423F76B822065CA2005066D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		423F76BD22065CA3005066D5 /* BarbellListenerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarbellListenerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		423F76C122065CA3005066D5 /* BarbellListenerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarbellListenerUITests.swift; sourceTree = "<group>"; };
+		423F76C322065CA3005066D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		423F76C622065CA3005066D5 /* BarbellListener WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BarbellListener WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		423F76CC22065CA3005066D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		423F76CE22065CA3005066D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		423F76D022065CA3005066D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		423F76D522065CA3005066D5 /* BarbellListener WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BarbellListener WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		423F76DA22065CA3005066D5 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		423F76DC22065CA3005066D5 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		423F76DE22065CA3005066D5 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		423F76E022065CA4005066D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		423F76E222065CA4005066D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		423F76E322065CA4005066D5 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		423F769B22065CA2005066D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423F76AF22065CA2005066D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423F76BA22065CA3005066D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423F76D222065CA3005066D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		423F769522065CA2005066D5 = {
+			isa = PBXGroup;
+			children = (
+				423F76A022065CA2005066D5 /* BarbellListener */,
+				423F76B522065CA2005066D5 /* BarbellListenerTests */,
+				423F76C022065CA3005066D5 /* BarbellListenerUITests */,
+				423F76CA22065CA3005066D5 /* BarbellListener WatchKit App */,
+				423F76D922065CA3005066D5 /* BarbellListener WatchKit Extension */,
+				423F769F22065CA2005066D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		423F769F22065CA2005066D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				423F769E22065CA2005066D5 /* BarbellListener.app */,
+				423F76B222065CA2005066D5 /* BarbellListenerTests.xctest */,
+				423F76BD22065CA3005066D5 /* BarbellListenerUITests.xctest */,
+				423F76C622065CA3005066D5 /* BarbellListener WatchKit App.app */,
+				423F76D522065CA3005066D5 /* BarbellListener WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		423F76A022065CA2005066D5 /* BarbellListener */ = {
+			isa = PBXGroup;
+			children = (
+				423F76A122065CA2005066D5 /* AppDelegate.swift */,
+				423F76A322065CA2005066D5 /* ViewController.swift */,
+				423F76A522065CA2005066D5 /* Main.storyboard */,
+				423F76A822065CA2005066D5 /* Assets.xcassets */,
+				423F76AA22065CA2005066D5 /* LaunchScreen.storyboard */,
+				423F76AD22065CA2005066D5 /* Info.plist */,
+			);
+			path = BarbellListener;
+			sourceTree = "<group>";
+		};
+		423F76B522065CA2005066D5 /* BarbellListenerTests */ = {
+			isa = PBXGroup;
+			children = (
+				423F76B622065CA2005066D5 /* BarbellListenerTests.swift */,
+				423F76B822065CA2005066D5 /* Info.plist */,
+			);
+			path = BarbellListenerTests;
+			sourceTree = "<group>";
+		};
+		423F76C022065CA3005066D5 /* BarbellListenerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				423F76C122065CA3005066D5 /* BarbellListenerUITests.swift */,
+				423F76C322065CA3005066D5 /* Info.plist */,
+			);
+			path = BarbellListenerUITests;
+			sourceTree = "<group>";
+		};
+		423F76CA22065CA3005066D5 /* BarbellListener WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				423F76CB22065CA3005066D5 /* Interface.storyboard */,
+				423F76CE22065CA3005066D5 /* Assets.xcassets */,
+				423F76D022065CA3005066D5 /* Info.plist */,
+			);
+			path = "BarbellListener WatchKit App";
+			sourceTree = "<group>";
+		};
+		423F76D922065CA3005066D5 /* BarbellListener WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				423F76DA22065CA3005066D5 /* InterfaceController.swift */,
+				423F76DC22065CA3005066D5 /* ExtensionDelegate.swift */,
+				423F76DE22065CA3005066D5 /* NotificationController.swift */,
+				423F76E022065CA4005066D5 /* Assets.xcassets */,
+				423F76E222065CA4005066D5 /* Info.plist */,
+				423F76E322065CA4005066D5 /* PushNotificationPayload.apns */,
+			);
+			path = "BarbellListener WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		423F769D22065CA2005066D5 /* BarbellListener */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423F76EE22065CA4005066D5 /* Build configuration list for PBXNativeTarget "BarbellListener" */;
+			buildPhases = (
+				423F769A22065CA2005066D5 /* Sources */,
+				423F769B22065CA2005066D5 /* Frameworks */,
+				423F769C22065CA2005066D5 /* Resources */,
+				423F76ED22065CA4005066D5 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				423F76C922065CA3005066D5 /* PBXTargetDependency */,
+			);
+			name = BarbellListener;
+			productName = BarbellListener;
+			productReference = 423F769E22065CA2005066D5 /* BarbellListener.app */;
+			productType = "com.apple.product-type.application";
+		};
+		423F76B122065CA2005066D5 /* BarbellListenerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423F76F122065CA4005066D5 /* Build configuration list for PBXNativeTarget "BarbellListenerTests" */;
+			buildPhases = (
+				423F76AE22065CA2005066D5 /* Sources */,
+				423F76AF22065CA2005066D5 /* Frameworks */,
+				423F76B022065CA2005066D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				423F76B422065CA2005066D5 /* PBXTargetDependency */,
+			);
+			name = BarbellListenerTests;
+			productName = BarbellListenerTests;
+			productReference = 423F76B222065CA2005066D5 /* BarbellListenerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		423F76BC22065CA3005066D5 /* BarbellListenerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423F76F422065CA4005066D5 /* Build configuration list for PBXNativeTarget "BarbellListenerUITests" */;
+			buildPhases = (
+				423F76B922065CA3005066D5 /* Sources */,
+				423F76BA22065CA3005066D5 /* Frameworks */,
+				423F76BB22065CA3005066D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				423F76BF22065CA3005066D5 /* PBXTargetDependency */,
+			);
+			name = BarbellListenerUITests;
+			productName = BarbellListenerUITests;
+			productReference = 423F76BD22065CA3005066D5 /* BarbellListenerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		423F76C522065CA3005066D5 /* BarbellListener WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423F76EA22065CA4005066D5 /* Build configuration list for PBXNativeTarget "BarbellListener WatchKit App" */;
+			buildPhases = (
+				423F76C422065CA3005066D5 /* Resources */,
+				423F76E922065CA4005066D5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				423F76D822065CA3005066D5 /* PBXTargetDependency */,
+			);
+			name = "BarbellListener WatchKit App";
+			productName = "BarbellListener WatchKit App";
+			productReference = 423F76C622065CA3005066D5 /* BarbellListener WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		423F76D422065CA3005066D5 /* BarbellListener WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423F76E622065CA4005066D5 /* Build configuration list for PBXNativeTarget "BarbellListener WatchKit Extension" */;
+			buildPhases = (
+				423F76D122065CA3005066D5 /* Sources */,
+				423F76D222065CA3005066D5 /* Frameworks */,
+				423F76D322065CA3005066D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BarbellListener WatchKit Extension";
+			productName = "BarbellListener WatchKit Extension";
+			productReference = 423F76D522065CA3005066D5 /* BarbellListener WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		423F769622065CA2005066D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Max Davis";
+				TargetAttributes = {
+					423F769D22065CA2005066D5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					423F76B122065CA2005066D5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 423F769D22065CA2005066D5;
+					};
+					423F76BC22065CA3005066D5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 423F769D22065CA2005066D5;
+					};
+					423F76C522065CA3005066D5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					423F76D422065CA3005066D5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 423F769922065CA2005066D5 /* Build configuration list for PBXProject "BarbellListener" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 423F769522065CA2005066D5;
+			productRefGroup = 423F769F22065CA2005066D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				423F769D22065CA2005066D5 /* BarbellListener */,
+				423F76B122065CA2005066D5 /* BarbellListenerTests */,
+				423F76BC22065CA3005066D5 /* BarbellListenerUITests */,
+				423F76C522065CA3005066D5 /* BarbellListener WatchKit App */,
+				423F76D422065CA3005066D5 /* BarbellListener WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		423F769C22065CA2005066D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423F76AC22065CA2005066D5 /* LaunchScreen.storyboard in Resources */,
+				423F76A922065CA2005066D5 /* Assets.xcassets in Resources */,
+				423F76A722065CA2005066D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423F76B022065CA2005066D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423F76BB22065CA3005066D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423F76C422065CA3005066D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423F76CF22065CA3005066D5 /* Assets.xcassets in Resources */,
+				423F76CD22065CA3005066D5 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423F76D322065CA3005066D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423F76E122065CA4005066D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		423F769A22065CA2005066D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423F76A422065CA2005066D5 /* ViewController.swift in Sources */,
+				423F76A222065CA2005066D5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423F76AE22065CA2005066D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423F76B722065CA2005066D5 /* BarbellListenerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423F76B922065CA3005066D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423F76C222065CA3005066D5 /* BarbellListenerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423F76D122065CA3005066D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423F76DF22065CA3005066D5 /* NotificationController.swift in Sources */,
+				423F76DD22065CA3005066D5 /* ExtensionDelegate.swift in Sources */,
+				423F76DB22065CA3005066D5 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		423F76B422065CA2005066D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 423F769D22065CA2005066D5 /* BarbellListener */;
+			targetProxy = 423F76B322065CA2005066D5 /* PBXContainerItemProxy */;
+		};
+		423F76BF22065CA3005066D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 423F769D22065CA2005066D5 /* BarbellListener */;
+			targetProxy = 423F76BE22065CA3005066D5 /* PBXContainerItemProxy */;
+		};
+		423F76C922065CA3005066D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 423F76C522065CA3005066D5 /* BarbellListener WatchKit App */;
+			targetProxy = 423F76C822065CA3005066D5 /* PBXContainerItemProxy */;
+		};
+		423F76D822065CA3005066D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 423F76D422065CA3005066D5 /* BarbellListener WatchKit Extension */;
+			targetProxy = 423F76D722065CA3005066D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		423F76A522065CA2005066D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				423F76A622065CA2005066D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		423F76AA22065CA2005066D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				423F76AB22065CA2005066D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		423F76CB22065CA3005066D5 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				423F76CC22065CA3005066D5 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		423F76E422065CA4005066D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		423F76E522065CA4005066D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		423F76E722065CA4005066D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BarbellListener WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CFSB.MaxDavis.BarbellListener.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		423F76E822065CA4005066D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BarbellListener WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CFSB.MaxDavis.BarbellListener.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		423F76EB22065CA4005066D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = BarbellListener_WatchKit_Extension;
+				INFOPLIST_FILE = "BarbellListener WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CFSB.MaxDavis.BarbellListener.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		423F76EC22065CA4005066D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = BarbellListener_WatchKit_Extension;
+				INFOPLIST_FILE = "BarbellListener WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CFSB.MaxDavis.BarbellListener.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		423F76EF22065CA4005066D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarbellListener/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CFSB.MaxDavis.BarbellListener;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		423F76F022065CA4005066D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarbellListener/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CFSB.MaxDavis.BarbellListener;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		423F76F222065CA4005066D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarbellListenerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CFSB.MaxDavis.BarbellListenerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarbellListener.app/BarbellListener";
+			};
+			name = Debug;
+		};
+		423F76F322065CA4005066D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarbellListenerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CFSB.MaxDavis.BarbellListenerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarbellListener.app/BarbellListener";
+			};
+			name = Release;
+		};
+		423F76F522065CA4005066D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarbellListenerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CFSB.MaxDavis.BarbellListenerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BarbellListener;
+			};
+			name = Debug;
+		};
+		423F76F622065CA4005066D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarbellListenerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CFSB.MaxDavis.BarbellListenerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BarbellListener;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		423F769922065CA2005066D5 /* Build configuration list for PBXProject "BarbellListener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423F76E422065CA4005066D5 /* Debug */,
+				423F76E522065CA4005066D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		423F76E622065CA4005066D5 /* Build configuration list for PBXNativeTarget "BarbellListener WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423F76E722065CA4005066D5 /* Debug */,
+				423F76E822065CA4005066D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		423F76EA22065CA4005066D5 /* Build configuration list for PBXNativeTarget "BarbellListener WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423F76EB22065CA4005066D5 /* Debug */,
+				423F76EC22065CA4005066D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		423F76EE22065CA4005066D5 /* Build configuration list for PBXNativeTarget "BarbellListener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423F76EF22065CA4005066D5 /* Debug */,
+				423F76F022065CA4005066D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		423F76F122065CA4005066D5 /* Build configuration list for PBXNativeTarget "BarbellListenerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423F76F222065CA4005066D5 /* Debug */,
+				423F76F322065CA4005066D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		423F76F422065CA4005066D5 /* Build configuration list for PBXNativeTarget "BarbellListenerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423F76F522065CA4005066D5 /* Debug */,
+				423F76F622065CA4005066D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 423F769622065CA2005066D5 /* Project object */;
+}
