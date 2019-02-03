@@ -17,6 +17,10 @@ class DetectionInterfaceController: WKInterfaceController {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
     }
+    @IBAction func stopDetecting() {
+        motionManager.stopAccelerometerUpdates()
+        dismiss()
+    }
     
     override func didAppear() {
         super.didAppear()
@@ -34,6 +38,5 @@ class DetectionInterfaceController: WKInterfaceController {
     override func didDeactivate() {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
-        motionManager.stopAccelerometerUpdates()
     }
 }

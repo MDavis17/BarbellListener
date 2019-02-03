@@ -25,16 +25,16 @@
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
         </scene>
-        <!--Detection Interface Controller-->
+        <!--DetectionInterface-->
         <scene sceneID="rFX-gg-Klo">
             <objects>
-                <controller id="9Q1-J6-rSi" customClass="DetectionInterfaceController" customModule="BarbellListener_WatchKit_Extension">
+                <controller identifier="DetectionInterface" id="9Q1-J6-rSi" customClass="DetectionInterfaceController" customModule="BarbellListener_WatchKit_Extension">
                     <items>
                         <label alignment="left" text="Detecting your lift" id="dZl-yc-BME"/>
                         <button width="1" alignment="left" title="Stop detecting" id="vZV-Bc-41Z">
                             <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
                             <connections>
-                                <segue destination="AgC-eL-Hgc" kind="modal" id="Uvz-It-V1a"/>
+                                <action selector="stopDetecting" destination="9Q1-J6-rSi" id="qJZ-PD-1dd"/>
                             </connections>
                         </button>
                     </items>
