@@ -22,6 +22,7 @@
 		423F76DD22065CA3005066D5 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F76DC22065CA3005066D5 /* ExtensionDelegate.swift */; };
 		423F76DF22065CA3005066D5 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F76DE22065CA3005066D5 /* NotificationController.swift */; };
 		423F76E122065CA4005066D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 423F76E022065CA4005066D5 /* Assets.xcassets */; };
+		423F76F82206AF91005066D5 /* DetectionInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F76F72206AF91005066D5 /* DetectionInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,7 @@
 		423F76E022065CA4005066D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		423F76E222065CA4005066D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		423F76E322065CA4005066D5 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		423F76F72206AF91005066D5 /* DetectionInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				423F76DA22065CA3005066D5 /* InterfaceController.swift */,
+				423F76F72206AF91005066D5 /* DetectionInterfaceController.swift */,
 				423F76DC22065CA3005066D5 /* ExtensionDelegate.swift */,
 				423F76DE22065CA3005066D5 /* NotificationController.swift */,
 				423F76E022065CA4005066D5 /* Assets.xcassets */,
@@ -435,6 +438,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				423F76DF22065CA3005066D5 /* NotificationController.swift in Sources */,
+				423F76F82206AF91005066D5 /* DetectionInterfaceController.swift in Sources */,
 				423F76DD22065CA3005066D5 /* ExtensionDelegate.swift in Sources */,
 				423F76DB22065CA3005066D5 /* InterfaceController.swift in Sources */,
 			);

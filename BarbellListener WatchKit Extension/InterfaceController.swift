@@ -8,25 +8,9 @@
 
 import WatchKit
 import Foundation
-import CoreMotion
 
 
 class InterfaceController: WKInterfaceController {
-
-    var motionManager = CMMotionManager()
-    
-    override func awake(withContext context: Any?) {
-        super.awake(withContext: context)
-        
-        // check for updates every .2 seconds
-        motionManager.accelerometerUpdateInterval = 0.2
-        
-        motionManager.startAccelerometerUpdates(to: OperationQueue.current!) { (data,error) in
-            if let myData = data {
-                print("x: \(myData.acceleration.x), y: \(myData.acceleration.y), z: \(myData.acceleration.z)")
-            }
-        }
-    }
     
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
