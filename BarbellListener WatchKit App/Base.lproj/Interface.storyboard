@@ -12,11 +12,7 @@
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="BarbellListener_WatchKit_App" customModuleProvider="target">
-                    <items>
-                        <label alignment="left" text="Detecting your lift" id="jEI-Ha-qrY"/>
-                    </items>
-                </controller>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="BarbellListener_WatchKit_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
         </scene>
